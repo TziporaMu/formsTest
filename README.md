@@ -13,7 +13,7 @@ First, clone the repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/your-username/public-complaints.git
+git clone https://github.com/TziporaMu/publicInquiriesApi.git
 Navigate to the Backend Folder:
 
 Change the directory to the backend folder:
@@ -32,11 +32,7 @@ Configure Database Connection:
 
 Open the appsettings.json file and configure the connection string for SQL Server:
 
-json
-Copy code
-"ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=PublicComplaintsDB;User Id=sa;Password=your_password;"
-}
+
 Replace your_password with your actual SQL Server password.
 
 Apply Database Migrations:
