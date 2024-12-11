@@ -1,4 +1,4 @@
-This application mimics the Public Complaints page of the Israeli Judiciary Authority found at https://publiccomplaints.court.gov.il. The goal is to recreate this page with a modern frontend using Angular and a backend built on .NET 9.
+This application mimics the Public Complaints page of the Israeli Judiciary Authority. The goal is to recreate this page with a modern frontend using Angular and a backend built on .NET 9.
 
 Backend: .NET 9
 Prerequisites
@@ -53,4 +53,4 @@ To run the backend, use the following command:
 bash
 Copy code
 dotnet run
-The backend API will be accessible at http://localhost:5000.
+The backend API will be accessible at http://localhost:7094.
